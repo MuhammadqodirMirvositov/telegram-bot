@@ -403,7 +403,7 @@ miqdor_mini_lavash_qalampir_molgosh = InlineKeyboardMarkup(
             InlineKeyboardButton(text = " 9️⃣", callback_data="9")
         ],
         [
-            InlineKeyboardButton(text="Ortga", callback_data="back7")
+            InlineKeyboardButton(text="Ortga", callback_data="back_q_mg")
         ]
     ]
 )
@@ -426,7 +426,7 @@ miqdor_classic_lavash_qalampir_molgosh = InlineKeyboardMarkup(
             InlineKeyboardButton(text = " 9️⃣", callback_data="9")
         ],
         [
-            InlineKeyboardButton(text="Ortga", callback_data="ortga2")
+            InlineKeyboardButton(text="Ortga", callback_data="backq_mg_c")
         ]
     ]
 )

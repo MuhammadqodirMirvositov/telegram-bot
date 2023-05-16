@@ -7,7 +7,7 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 
 
-
+API_TOKEN = '6226627715:AAFOiN1uWnCXcQHl_aOVOp9tW-mBCoeGaAU'
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
@@ -173,7 +173,7 @@ async def my_func(call: types.CallbackQuery):
         caption="""
 Narxi:20000 ming so'm 
 Tarkibi::Xamir,garimdori go'sht,chips,pomidor,bodring,sous,moyonez
-Miqdorini tanlang""", reply_markup= miqdor_classic_lavash_molgosh)
+Miqdorini tanlang""", reply_markup= miqdor_mini_lavash_qalampir_molgosh)
 
 @dp.callback_query_handler(text="mini_tovuqgosh")
 async def my_func(call: types.CallbackQuery):
@@ -660,11 +660,11 @@ Miqdorini tanlang""", reply_markup= miqdor_margaritta)
 async def my_func(call: types.CallbackQuery):
     await call.message.answer("✅ Marhamat menu!!!", reply_markup= bosh_menyu)
 
-# lavash menu back2
+# # lavash menu back2
 
-@dp.callback_query_handler(text="back2")
-async def my_func(call: types.CallbackQuery):
-    await call.message.answer("✅ Marhamat lavashlar menusi!!!", reply_markup= lavash_menyu)
+# @dp.callback_query_handler(text="back2")
+# async def my_func(call: types.CallbackQuery):
+#     await call.message.answer("✅ Marhamat lavashlar menusi!!!", reply_markup= lavash_menyu)
     
 # mol gosht size back3
 
@@ -690,15 +690,15 @@ async def my_func(call: types.CallbackQuery):
 async def my_func(call: types.CallbackQuery):
     await call.message.answer("✅ Marhamat lavashlar menusi!!!", reply_markup= lavash_menyu)
 
-# lavash qalampir mol gosh size mini back7
+# lavash qalampir mol gosh size mini back_q_mg
 
-@dp.callback_query_handler(text="back7")
+@dp.callback_query_handler(text="back_q_mg")
 async def my_func(call: types.CallbackQuery):
     await call.message.answer("✅ Kategoriyalardan birini tanlang!!!", reply_markup= size_goshqalapmr_gosh_lavash)
 
-# lavash qalampir mol gosh size classic back8
+# lavash qalampir mol gosh size classic backq_mg_c
 
-@dp.callback_query_handler(text="back8")
+@dp.callback_query_handler(text="backq_mg_c")
 async def my_func(call: types.CallbackQuery):
     await call.message.answer("✅ Kategoriyalardan birini tanlang!!!", reply_markup= size_goshqalapmr_gosh_lavash)
 
